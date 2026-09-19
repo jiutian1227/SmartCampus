@@ -1,0 +1,37 @@
+# 鸿蒙构建产物
+build/
+.hvigor/
+.cxx/
+*.har
+*.hap
+*.hsp
+
+# 依赖
+oh_modules/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 签名和密钥（重要，别传）
+*.p12
+*.cer
+*.p7b
+*.keystore
+
+# 日志和临时文件
+*.log
+*.tmp
+.DS_Store
+
+# 大文件
+*.mp4
+*.avi
+*.zip
+*.rar
+
+# 文档
+*.docx
+*.pptx
